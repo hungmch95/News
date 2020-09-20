@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.NewsGrid{
+    margin: 10px;
+    border: 1px solid #f7f7f7;
+    padding: 10px;
+}
+
+img{
+    width: calc(100% - 20px);
+    height: 250px;
+    margin: 10px;
+}
+
+.pagination a.selected{
+    font-weight: bold;
+}
