@@ -36,9 +36,9 @@
         </div>
 </a>
 <?php } ?>
-            <div class = "pagination">
+            <div class = "pagination" style = "font-size: 20px; justify-content: center">
         <?php for($x = 1; $x <= $pages; $x++): ?>
-        <a href = "?page=<?php echo $x; ?>"<?php if($page === $x) {echo 'class="selected"';} ?> style = "font-size: 20px"> <?php echo $x."  "; ?> </a>
+        <a href = "?page=<?php echo $x; ?>"<?php if($page === $x) {echo 'class="selected"';} ?> style = "font-size: 20px; padding-left: 10px"> <?php echo $x."  "; ?> </a>
         <?php endfor; ?>
             </div>
     </div>
