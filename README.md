@@ -23,3 +23,8 @@ Everytime the app.scss file is edited
 ```
 npm run dev
 ```
+or 
+
+```
+npm run watch
+```
