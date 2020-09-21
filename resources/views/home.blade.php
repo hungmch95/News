@@ -2,7 +2,7 @@
 
 @section('content')
 <?php
-    $url = 'http://newsapi.org/v2/everything?q=the&pageSize=100&apiKey=6043e282ed294479b69c10e1ca6076ec';
+    $url = 'http://newsapi.org/v2/everything?q=the&pageSize=100&apiKey=[API KEY]';
     $response = file_get_contents($url);
     $newsData = json_decode($response, true);
     $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
